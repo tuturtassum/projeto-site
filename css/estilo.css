@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente no centro */
+    padding: 20px;
+}
+
+.imagem-lateral {
+    margin: 150px;
+    max-width: 650px; /* Limite de largura para a imagem */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.texto {
+    max-width: 600px; /* Limite de largura para o texto */
+    
+}
+h1{
+    font-size: 70px;
+    
+
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    
+}
