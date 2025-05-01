@@ -13,21 +13,21 @@
 
 .imagem-lateral {
     margin: 80px;
-    max-width: 650px; /*limite de largura para a imagem */
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
+    max-width: 650px;        /*limite de largura para a imagem */
+    margin-right: 20px;      /* Espaço entre a imagem e o texto */
 }
 
 .texto {
     display: flex;
-    flex-direction: column; /* Coloca o título em cima e o subtítulo embaixo */
-    justify-content: center; /* Opcional: centraliza verticalmente */
+    flex-direction: column;   /* Coloca o título em cima e o subtítulo embaixo */
+    justify-content: center;  /*centraliza verticalmente */
 }
 
 .titulo {
     font-size: 40px;
     margin-top: 130px;
     margin-left: 50px;
-    max-width: 400px; /* Limite de largura para o texto */
+    max-width: 400px;
     color: #252424;
 }
 
@@ -35,7 +35,7 @@
     font-size: 20px;
     margin-top: -50px;
     margin-left: 50px;
-    max-width: 600px; /* Limite de largura para o texto */
+    max-width: 600px; 
     color: #252424;
 }
 
@@ -55,3 +55,13 @@ p {
     text-align: center;          /* Alinha o texto no centro */
     color: #252424;
 }
+
+.botao {
+    background-color: #6C63FF;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;        /* tira o sublinhado do link */
+    border-radius: 8px;          /* arredonda os cantos do botão */         
+    font-size: 16px;
+    display: inline-block;
+  }
