@@ -1,31 +1,57 @@
+.aleo-normal {
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .container {
     display: flex;
-    align-items: center; /* Alinha verticalmente no centro */
-    padding: 20px;
+    align-items: flex-start; /* Alinha verticalmente no centro */
+    padding: 10px;
 }
 
 .imagem-lateral {
-    margin: 150px;
-    max-width: 650px; /* Limite de largura para a imagem */
+    margin: 80px;
+    max-width: 650px; /*limite de largura para a imagem */
     margin-right: 20px; /* Espaço entre a imagem e o texto */
 }
 
 .texto {
+    display: flex;
+    flex-direction: column; /* Coloca o título em cima e o subtítulo embaixo */
+    justify-content: center; /* Opcional: centraliza verticalmente */
+}
+
+.titulo {
+    font-size: 40px;
+    margin-top: 130px;
+    margin-left: 50px;
+    max-width: 400px; /* Limite de largura para o texto */
+    color: #252424;
+}
+
+.subtitulo {
+    font-size: 20px;
+    margin-top: -50px;
+    margin-left: 50px;
     max-width: 600px; /* Limite de largura para o texto */
-    
+    color: #252424;
 }
-h1{
-    font-size: 70px;
-    
 
-}
-p{
-    font-size: 30px;
-    font-weight: bold;
 
-}
-h2{
+h3{
+    margin-top: -125px;
     font-size: 40px;
     text-align: center;
-    
+    color: #252424;
+}
+
+p {
+    max-width: 700px;            /* Controla a largura para quebrar em 4 linhas */
+    margin: 0 auto;              /* Centraliza horizontalmente */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;          /* Alinha o texto no centro */
+    color: #252424;
 }
